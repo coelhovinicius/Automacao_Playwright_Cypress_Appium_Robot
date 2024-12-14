@@ -1,0 +1,8 @@
+Testes
+
+- Testes Regressivos;
+- Testes Automatizados;
+- Testes de Integração;
+- Testes Manuais;
+- Testes Unitários;
+- 

@@ -1,0 +1,26 @@
+# Diretórios de dependências
+Cypress/node_modules/
+Playwright/node_modules/
+
+# Relatórios de testes
+Playwright/playwright-report
+
+# Capturas de tela e vídeos
+
+
+# Arquivos de configuração locais
+
+
+# Logs
+*.log
+
+
+# Arquivos de build
+dist/
+build/
+
+
+# Outros arquivos temporários
+.DS_Store
+*.swp
+*.tmp

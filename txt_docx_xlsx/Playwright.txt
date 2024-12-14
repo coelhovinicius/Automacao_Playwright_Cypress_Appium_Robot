@@ -1,0 +1,64 @@
+Automação Web com Playwright
+ 
+Aula 3
+
+- Instalar o Node.js;
+- Instalar Playwright - npm init playwright@latest;
+- Instalar a extensão Playwright For VSCode;
+- O Playwright irá criar todas as pastas e arquivos necessários, com dois testes "padrão", que podem ser executados;
+- Para acompanhar o teste, devemos habilitar a visualização clicando no ícone de Erlenmyer no menu ao lado esquerdo no VSCode e selecionar Settings > Show browser.
+
+- npx playwright test --ui: Abre a UI do Playwright;
+- npx playwright test: Roda todos os testes de uma vez;
+- npx playwright --grep=@login: Roda o teste que tem como tag "@login";
+- npx playwright show-report: Exibe o relatório de teste do último teste executado;
+
+- Pick Locator - no menu direito do VSCode, essa ferramenta do Playwright nos auxilia a identificar os elementos de um site e exibe no VSCode;
+- Record New: Possibilita gravar o passo a passo dos testes e o script é automaticamente gerado no VSCode.
+
+-------------------------------------------------------------
+
+Teste Mobile - no arquivo "playwright.config.js":
+
+- Pixel 5:
+    {
+      name: 'Mobile Chrome',
+      use: { ...devices['Pixel 5'] },
+    },
+
+- iPhone 14:
+    {
+      name: 'Mobile Safari',
+      use: { ...devices['iPhone 12'] },
+    },
+
+-------------------------------------------------------------
+
+Site para Testes:
+https://automationpratice.com.br/
+ 
+Desafio:
+Criar testes para validar com:
+- Somente e-mail - Validar a mensagem;
+- Somente senha - Validar a mensagem;
+- Fazer outros cenários de testes.
+
+-------------------------------------------------------------
+
+Caso de Teste:
+
+Precondições:
+- Login e senha válidos.
+
+Passo a passo:
+1. Acessar  o site - https://automationpratice.com.br);
+2. Clicar em "Login" no canto superior direito da página;
+3. Digitar o email - teste@teste.com
+4. Digitar a senha - 123456
+
+Outras informações:
+Descrever outras informações pertinentes.
+
+Resultado Esperado:
+- Apresentar a Home da aplicação logada junto à mensagem de texto "Login realizado" e apresentando a frase "Olá, <e-mail do login>".
+

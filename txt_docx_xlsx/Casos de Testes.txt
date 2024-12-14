@@ -1,0 +1,85 @@
+Casos de Testes
+
+------------------------------------
+
+EX1
+
+Requisito: Quando digitar email e senha correta, deve apresentar a mensagem "Logado com Sucesso".
+
+Cenário: Login com Sucesso
+
+- Abrir o aplicativo;
+- Digitar e-mail;
+- Digitar senha;
+- Clicar em Entrar;
+- Verificar a mensagem "Logado com Sucesso".
+
+Resultado obtido:
+<Especificar os resultados obtidos>
+
+------------------------------------
+
+EX2
+
+Requisito: Quando digitar senha incorreta, deve apresentar a mensagem "Senha Inválida".
+
+Cenário: Senha incorreta
+
+Passo-a-passo:
+- Abrir o aplicativo;
+- Digitar email;
+- Digitar senha incorreta;
+- Clicar em Entrar;
+- Verificar a mensagem "Senha Inválida".
+
+Resultado esperado:
+<Especificar os resultados esperados>
+
+Resultado obtido:
+<Especificar os resultados obtidos>
+
+-------------------------------------
+
+Site encontreoerro.qazando.com.br - Para fazer testes exploratórios.
+
+-------------------------------------
+
+
+Site automationpratice.com.br/login
+Site automationpratice.com.br/register
+Site tool.qazando.com.br/projects/1733167177936
+
+-------------------------------------
+
+Reportando um Bug:
+
+- Dê um Título Descritivo - Identifique o Bug de forma objetiva:
+	> "Erro ao fazer login com senha incorreta".
+- Descreva o Problema - Explique o que aconteceu e qual era o comportamento esperado:
+	> "Ao digitar uma senha incorreta, o sistema deveria exibir uma mensagem de erro, mas não a exibe".
+	> Liste detalhadamente o passo-apasso de cada etapa que levou ao Bug;
+	> Inclua cliques, ações e qualquer informação relevante.
+
+Exemplo:
+
+- Abrir o app;
+- Inserir e-mail válido;
+- Inserir senha incorreta;
+- Clicar no botão "Entrar".
+
+Especifique o ambiente onde o bug ocorreu:
+- Sistema Operacional: Windows 11, Android 12;
+- Versão do Aplicativo/Software - Versão 2.1.0;
+- Dispositivo: Samsung Galaxy S21.
+- Resultado Atual: O que realmente aconteceu?
+- Comportamento Esperado: Qual deveria ser o comportamento correto?
+- Evidências: Inclua logs, prints de tela, vídeos e outras evidências que possam ilustrar o problema;
+- Classifique a gravidade: Baixa, Média, Alta, Crítica.
+
+-------------------------------------
+
+- Testes Exploratórios: Testes feitos livremente, sem um roteiro predefinido;
+
+- Testes Manuais: Mais flexíveis, melhor para cenários complexos, adequados para testes exploratórios;
+
+- Testes Automatizados: Rápidos, repetitivos, ideais para testes de regressão e cenários repetitivos.

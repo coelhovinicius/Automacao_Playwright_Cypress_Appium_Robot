@@ -1,0 +1,17 @@
+Cypress
+
+Confguração do ambiente de testes:
+
+- npm init -y: inicia um novo projeto Node.js para criar a estrutura do Cypress;
+- npm install cypress: instala o pacote Cypress;
+- npx cypress open: inicia o Cypress;
+- Clicar em E2E;
+- Criar arquivo de testes:
+	> Botão direito na pasta cypress e criar pasta e2e - padrão do Cypress;
+	> e2e - criar arquivo de teste: login.cy.js;
+- Criar cenários:
+	> Funcionalidade;
+	> Cenários / Casos de Teste;
+
+- beforeEach() - Antes de cada teste, irá realizar ações;
+- cy.viewport - Permite testar a responsividade, escolhendo um hardware "virtual" para o teste.
