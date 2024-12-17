@@ -1,0 +1,41 @@
+Cypress para API
+
+API REST - restful-api.dev
+
+Erros HTTP - httpstatus.com.br
+
+Criar o Ambiente de Testes:
+
+- npm init -y - inicia o projeto
+- npm install cypress - instala
+- npx cypress open - abre o Cypress
+
+- Criar pasta "e2e" dentro da pasta "cypress";
+- Criar o arquivo de teste.cy.js
+
+
+
+
+
+- Requisição: 
+	> End point: URL;
+	> Método HTTP: GET, POST, PUT, UPDATE, DELETE, PATCH, entre outros;
+
+Exemplo:
+
+/// <reference types="cypress"/>
+
+describe('Buscar dispositivos', () => {
+    it('Buscar dispositivo específico', () => {
+        cy.request({
+            method: 'GET',
+            url: 'https://api.restful-api.dev/objects/3',
+
+        })
+
+        .then((resultado) => {
+            expect(resultado.status).equal(200),
+            expect(resultado.body.id).equal('3')
+        })
+    })
+})    

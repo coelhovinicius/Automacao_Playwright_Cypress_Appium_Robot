@@ -1,9 +1,10 @@
 # Diretórios de dependências
-Cypress/node_modules/
-Playwright/node_modules/
+Semana1/Cypress/node_modules/
+Semana1/Playwright/node_modules/
+Semana2/CypressTestesAPI/node_modules/
 
 # Relatórios de testes
-Playwright/playwright-report
+Semana1/Playwright/playwright-report
 
 # Capturas de tela e vídeos
 

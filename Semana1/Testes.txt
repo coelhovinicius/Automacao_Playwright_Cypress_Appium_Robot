@@ -1,0 +1,10 @@
+Tipos de Testes:
+
+- Testes Regressivos;
+- Testes Automatizados;
+- Testes de Integração;
+- Testes Manuais;
+- Testes Unitários;
+- Testes Exploratórios;
+- Testes de Performance;
+- 
