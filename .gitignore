@@ -2,12 +2,12 @@
 Semana1/Cypress/node_modules/
 Semana1/Playwright/node_modules/
 Semana2/CypressTestesAPI/node_modules/
-Semana2/Appium/IOS - LITE-qazandoqafood.zip/
-Semana2/Appium/app/qazandofood.app/assets/
-Semana2/Appium/app/qazandofood.app/Frameworks/
-Semana2/Appium/app/qazandofood.app/LaunchScreen.storyboardc/
-Semana2/Appium/app/qazandofood.app/AccessibilityResources.bundle/
-Semana2/Appium/app/qazandofood.app/_CodeSignature/
+Semana2/Appium/"IOS - LITE-qazandoqafood.zip"/
+Semana2/Appium/app/qazandoqafood.app/assets/
+Semana2/Appium/app/qazandoqafood.app/Frameworks/
+Semana2/Appium/app/qazandoqafood.app/LaunchScreen.storyboardc/
+Semana2/Appium/app/qazandoqafood.app/AccessibilityResources.bundle/
+Semana2/Appium/app/qazandoqafood.app/_CodeSignature/
 
 # Relatórios de testes
 Semana1/Playwright/playwright-report
