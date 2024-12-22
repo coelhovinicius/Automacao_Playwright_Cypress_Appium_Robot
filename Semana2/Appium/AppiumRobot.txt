@@ -1,0 +1,17 @@
+Appium e Robot Framework
+
+Robot Framework -> Appium -> IOS/Android
+
+- npm install -g appium - Instalação do Appium
+
+- pip install robotframework - Instalação do Robot Framework
+
+- pip install robotframework-appium - Integração do Robot Framework com o Appium
+
+- pip install robotframework-appiumlibrary - Instalação da Biblioteca Appium
+
+- npm install appium-doctor - Instalação do Appium Doctor, que diagnostica o que é necessário para rodar Appium
+
+- appium-doctor --android  Verifica o que é necessário para testes Appium com Android
+
+- appium allow-cors - Inicializar o Appium
